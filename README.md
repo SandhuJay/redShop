@@ -36,7 +36,6 @@ For those [using Packagist](https://packagist.org/packages/twbs/bootstrap-icons)
 composer require twbs/bootstrap-icons
 ```
 
-[Also available in Figma.](https://www.figma.com/community/file/1042482994486402696/Bootstrap-Icons)
 
 ## Usage
 
@@ -47,22 +46,7 @@ Depending on your setup, you can include Bootstrap Icons in a handful of ways.
 - Use the SVG sprite
 - Include via CSS
 
-[See the docs for more information.](https://icons.getbootstrap.com/#usage)
 
-## Development
-
-[![Build Status](https://github.com/twbs/icons/workflows/Tests/badge.svg)](https://github.com/twbs/icons/actions?workflow=Tests)
-
-Clone the repo, install dependencies, and start the Hugo server locally.
-
-```shell
-git clone https://github.com/twbs/icons/
-cd icons
-npm i
-npm start
-```
-
-Then open `http://localhost:4000` in your browser.
 
 ### npm scripts
 
@@ -84,14 +68,6 @@ Icons are typically only added by @mdo, but exceptions can be made. New glyphs a
 
 Use `npm run icons` to run the script, run `npm run pages` to build permalink pages, complete those pages, and, finally, commit the results in a new branch for updating.
 
-## Publishing
 
-Documentation is published automatically when a new Git tag is published. See our [GitHub Actions](https://github.com/twbs/icons/tree/main/.github/workflows) and [`package.json`](https://github.com/twbs/icons/blob/main/package.json) for more information.
 
-## License
 
-MIT
-
-## Author
-
-[@mdo](https://github.com/mdo)
