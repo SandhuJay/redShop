@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products|redShop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+              <a href="index.html"> <img src="logo.png" class ="log"width="100px"></a> 
+             </div>
+           
+           <nav>
+           
+               <ul id="items">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="products.html">Products</a></li>
+                   <li><a href="aboutm.html">About</a></li>
+                   <li><a href="account.html">Account</a></li>
+                  
+               </ul>
+              <a href="cart.html"><img src="images/cart.png" width="25px" height="25px"></a> 
+               
+            </nav>
+            <img src="images/menu.png" class="menu" onclick="menutoggle()">
+        </div>
+    
+    
+</div>
+
+</div>
+<div class="s-container">
+   <div class="row row-2">
+    <h2>All Products</h2>
+    <select>
+        <option>Default</option>
+        <option>Sort by Price(Low to High)</option>
+        <option>Sort by Price(High to Low)</option>
+        <option>Sort by Rating</option>
+        <option>Sort by Brand</option>
+    </select>
+   </div>
+    <div class="row">
+        <div class="col-4">
+            <a href=""><img src="images/product-32.jpeg" alt="" height="297px"></a>
+            <a href=""> <h4>Campus Sports Shoes<br>White 2.0</h4></a>
+            <p>Rs1499</p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+           
+        </div>
+        <div class="col-4">
+            <a href=""><img src="images/product-29.jpeg" alt=""height="297px"></a>
+            <h4> Men Slim Black Jeans<br>Jack&Jones</h4>
+            <p>Rs1999</p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href=""><img src="images/product-25.jpeg" alt=""height="297px"></a>
+            <h4>Light Blue Jeans<br>Ben Martin</h4>
+            <p>Rs999</p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href=""><img src="images/product-26.jpeg" height="297px"></a>
+            <h4>Dark Blue Jeans<br>U.S.POLO ASSN.</h4>
+            <p>Rs1199</p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-4">
+           <a href=""><img src="images/product-24.jpeg" height="297px"></a> 
+            <h4>Men Solid Black-Red<br> Track Pant|Foxter</h4>
+            <p>Rs599</p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href=""><img src="images/product-19.jpeg"height="297px" ></a> 
+            <h4>Red & Blue Full sleeve T-shirt<br></h4>
+            <p>Rs499</p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href=""><img src="images/product-31.jpeg"height="297px" ></a> 
+            <h4>Black Running Shoes|Nike</h4>
+            <p>Rs2599</p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href=""><img src="images/product-23.jpeg"height="297px" ></a> 
+            <h4>Women Cotten Black Track Pant|KOPEK <br></h4>
+            <p>Rs699</p>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+     </div>
+        <div class="row">
+            <div class="col-4">
+                <a href=""><img src="images/product-17.jpeg" height="297px"></a> 
+                <h4>Men's Fit & Slim Yellow <br>Cotten Tshirt|HRX</h4>
+                <p>Rs1499</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/product-30.jpeg"height="297px" ></a> 
+                <h4>Men's Black Jeans|Ben Martin</h4>
+                <p>Rs999</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/product-34w.jpeg" height="297px"></a> 
+                <h4>Apple Watch Ultra <br>GPS+Cellular|Orange</h4>
+                <p>Rs60000</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/product-33.jpeg" height="297px"></a> 
+                <h4>Men's Black Formal Shoes</h4>
+                <p>Rs799</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+    </div>
+    <div class="pg-btn">
+        <a href="products.html"><span>1</span></a>
+       <a href="productss2.html"><span>2</span></a> 
+        <span>3</span>
+        <a href="https://www.flipkart.com/clothing-and-accessories/pr?sid=clo&otracker=categorytree&p%5B%5D=facets.ideal_for%255B%255D%3DMen&otracker=nmenu_sub_Men_0_Clothing"><span>&#8594;</span></a>
+        
+    </div>
+</div>
+
+
+ 
+ <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download the App</h3>
+                <p>Download App for Android and ios System</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="logo.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sequi.</p>
+            </div>
+        
+            <div class="footer-col-3">
+            <h3>Useful Links</h3>
+                <ul>
+                    <li>Return Policy</li>
+                    <li>Coupans</li>
+                    <li>Blog Post</li>
+                    
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                   <h3>Follow Us</h3>
+                    <ul>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>YouTube</li>
+                    </ul>
+            </div>
+      </div>
+      <hr>
+      <p class="end">Copyright 2023...</p>
+  </div>
+ </div>
+ <script>
+    var menu1=document.getElementById("items");
+    menu1.style.maxHeight="0px";
+    function menutoggle(){
+        if(menu1.style.maxHeight=="0px"){
+            menu1.style.maxHeight="200px";
+        }
+        else{
+            menu1.style.maxHeight="0px";
+        }
+    }
+ </script>
+</body>
+</html>

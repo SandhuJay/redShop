@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart|redShop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"> <img src="logo.png" class ="log"width="100px"></a> 
+             </div>
+           
+           <nav>
+           
+               <ul id="items">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="products.html">Products</a></li>
+                   <li><a href="aboutm.html">About</a></li>
+                   <li><a href="account.html">Account</a></li>
+                  
+               </ul>
+               <img src="images/cart.png" width="25px" height="25px">
+               
+            </nav>
+            <img src="images/menu.png" class="menu" onclick="menutoggle()">
+        </div>
+   </div>
+
+<div class="s-container cart">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/buy-1.jpg" alt="">
+                    <div><p>Red Printed T-shirt</p>
+                      <small>Price: Rs399 <br></small>
+                      
+                      <a href="">Remove</a>
+                    </div>
+                </div>
+
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>Rs399</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/buy-3.jpg" alt="">
+                    <div><p>Grey Lower</p>
+                      <small>Price: Rs499 <br></small>
+                      
+                      <a href="">Remove</a>
+                    </div>
+                </div>
+
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>Rs499</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/buy-2.jpg" alt="">
+                    <div><p>Black Running Shoes</p>
+                      <small>Price: Rs999 <br></small>
+                      
+                      <a href="">Remove</a>
+                    </div>
+                </div>
+
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>Rs999</td>
+        </tr>
+    </table>
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Price(3 items)</td>
+                <td>Rs1897</td>
+            </tr>
+            <tr>
+                <td>Tax(GST)</td>
+                <td>Rs100</td>
+            </tr>
+            <tr>
+                <td>Delivery Charges</td>
+                <td>Free Delivery</td>
+            </tr>
+            <tr>
+                <td>Total Amount</td>
+                <td>Rs1997</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+
+
+ 
+ <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download the App</h3>
+                <p>Download App for Android and ios System</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="logo.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sequi.</p>
+            </div>
+        
+            <div class="footer-col-3">
+            <h3>Useful Links</h3>
+                <ul>
+                    <li>Return Policy</li>
+                    <li>Coupans</li>
+                    <li>Blog Post</li>
+                    
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                   <h3>Follow Us</h3>
+                    <ul>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>YouTube</li>
+                    </ul>
+            </div>
+      </div>
+      <hr>
+      <p class="end">Copyright 2023...</p>
+  </div>
+ </div>
+ <script>
+    var menu1=document.getElementById("items");
+    menu1.style.maxHeight="0px";
+    function menutoggle(){
+        if(menu1.style.maxHeight=="0px"){
+            menu1.style.maxHeight="200px";
+        }
+        else{
+            menu1.style.maxHeight="0px";
+        }
+    }
+ </script>
+
+</body>
+</html>
